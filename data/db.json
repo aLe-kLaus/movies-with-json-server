@@ -1,0 +1,28 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "title": "Shrek",
+      "director": "Alessom Klaus",
+      "realeaseDate": 2019
+    },
+    {
+      "id": 2,
+      "title": "Shrek Terceiro",
+      "director": "Alessom Klaus",
+      "realeaseDate": 2020
+    },
+    {
+      "id": 3,
+      "title": "Shrek Para Sempre",
+      "director": "Alessom Klaus",
+      "realeaseDate": 2021
+    },
+    {
+      "title": "Pare sempre ",
+      "director": "awdwadaw",
+      "releaseDate": "dwadaw",
+      "id": 4
+    }
+  ]
+}
