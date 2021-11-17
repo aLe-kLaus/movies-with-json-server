@@ -8,11 +8,20 @@ export default {
   },
 
   async createMovie(data) {
-    const response = await API.post("/movies", {
-      title: data.title,
-      director: data.director,
-      releaseDate: data.releaseDate,
-    });
+    const response = await API.post(
+      "/movies",
+      {
+        title: data.title,
+        director: data.director,
+        releaseDate: data.releaseDate,
+      },
+      {
+        headers: {
+          Accept: "application/json",
+          "Content-Type": "application/json",
+        },
+      }
+    );
 
     return response;
   },
