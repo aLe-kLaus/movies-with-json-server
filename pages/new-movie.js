@@ -16,7 +16,10 @@ const NewMovie = () => {
           releaseDate,
         };
         const response = await movieService.createMovie(data);
-        console.log(response);
+        setTitle("");
+        setDirector("");
+        setReleaseDate("");
+        alert("Filme criado com sucesso");
       } catch {}
     } else {
       alert("Todos os campos devem ser preenchidos");
