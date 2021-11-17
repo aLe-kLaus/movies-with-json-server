@@ -1,5 +1,6 @@
 import axios from "axios";
 
 export const API = axios.create({
-  baseURL: process.env.API_URL || "http://localhost:4000",
+  baseURL:
+    "https://my-json-server.typicode.com/aLe-kLaus/movies-with-json-server",
 });
