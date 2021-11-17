@@ -43,6 +43,7 @@ const NewMovie = () => {
         className={styles.input}
         placeholder="Ano de Lançamento"
         onChange={(evt) => setReleaseDate(evt.target.value)}
+        type="number"
       />
       <button className={styles.button} onClick={createMovie}>
         Adiconar
